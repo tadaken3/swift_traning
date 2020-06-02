@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var labelText = "Hello SwiftUI"
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack(spacing: 80) {
+            Text(labelText)
+                .frame(width:150, height: 30)
+                .border(Color.red)
+                .offset(x:50 , y: 50)
+
+            Button(action: {self.labelText = "Yes Tapped!"}) {
+                Text("Tap!!")
+                    .font(.footnote)
+                    .fontWeight(.thin)
+                    .foregroundColor(Color.black)
+                    .frame(width: 70, height: 20)
+                    .border(Color.gray, width: 2)
+            }
+        }
     }
 }
 
