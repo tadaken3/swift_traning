@@ -13,6 +13,8 @@
 		1C4AE28624839EE6001CA8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4AE28524839EE6001CA8A5 /* Assets.xcassets */; };
 		1C4AE28924839EE6001CA8A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4AE28824839EE6001CA8A5 /* Preview Assets.xcassets */; };
 		1C4AE28C24839EE6001CA8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4AE28A24839EE6001CA8A5 /* LaunchScreen.storyboard */; };
+		1C4AE2982485389D001CA8A5 /* TapButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */; };
+		1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1C4AE28824839EE6001CA8A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C4AE28B24839EE6001CA8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C4AE28D24839EE6001CA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonExample.swift; sourceTree = "<group>"; };
+		1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1C4AE27F24839EE5001CA8A5 /* AppDelegate.swift */,
 				1C4AE28124839EE5001CA8A5 /* SceneDelegate.swift */,
 				1C4AE28324839EE5001CA8A5 /* ContentView.swift */,
+				1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */,
+				1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */,
 				1C4AE28524839EE6001CA8A5 /* Assets.xcassets */,
 				1C4AE28A24839EE6001CA8A5 /* LaunchScreen.storyboard */,
 				1C4AE28D24839EE6001CA8A5 /* Info.plist */,
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
+				1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */,
 				1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */,
+				1C4AE2982485389D001CA8A5 /* TapButtonExample.swift in Sources */,
 				1C4AE28424839EE5001CA8A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
