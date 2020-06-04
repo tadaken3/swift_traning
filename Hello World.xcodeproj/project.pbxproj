@@ -16,6 +16,8 @@
 		1C4AE2982485389D001CA8A5 /* TapButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */; };
 		1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */; };
 		1C4AE29C2487D251001CA8A5 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29B2487D251001CA8A5 /* SliderExample.swift */; };
+		1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29D24887663001CA8A5 /* PickerExample.swift */; };
+		1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonExample.swift; sourceTree = "<group>"; };
 		1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonExample.swift; sourceTree = "<group>"; };
 		1C4AE29B2487D251001CA8A5 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
+		1C4AE29D24887663001CA8A5 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
+		1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageExapmle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */,
 				1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */,
 				1C4AE29B2487D251001CA8A5 /* SliderExample.swift */,
+				1C4AE29D24887663001CA8A5 /* PickerExample.swift */,
+				1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */,
 				1C4AE28524839EE6001CA8A5 /* Assets.xcassets */,
 				1C4AE28A24839EE6001CA8A5 /* LaunchScreen.storyboard */,
 				1C4AE28D24839EE6001CA8A5 /* Info.plist */,
@@ -155,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
+				1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */,
 				1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */,
 				1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */,
 				1C4AE29C2487D251001CA8A5 /* SliderExample.swift in Sources */,
