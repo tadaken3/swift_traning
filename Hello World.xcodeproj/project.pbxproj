@@ -18,6 +18,9 @@
 		1C4AE29C2487D251001CA8A5 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29B2487D251001CA8A5 /* SliderExample.swift */; };
 		1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29D24887663001CA8A5 /* PickerExample.swift */; };
 		1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */; };
+		1CA47D27248B1AC800B008C8 /* StaticListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D26248B1AC800B008C8 /* StaticListExample.swift */; };
+		1CA47D29248B1CF500B008C8 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D28248B1CF500B008C8 /* RestaurantView.swift */; };
+		1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		1C4AE29B2487D251001CA8A5 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
 		1C4AE29D24887663001CA8A5 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 		1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageExapmle.swift; sourceTree = "<group>"; };
+		1CA47D26248B1AC800B008C8 /* StaticListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListExample.swift; sourceTree = "<group>"; };
+		1CA47D28248B1CF500B008C8 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */,
 				1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */,
 				1C4AE29B2487D251001CA8A5 /* SliderExample.swift */,
+				1CA47D26248B1AC800B008C8 /* StaticListExample.swift */,
+				1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */,
+				1CA47D28248B1CF500B008C8 /* RestaurantView.swift */,
 				1C4AE29D24887663001CA8A5 /* PickerExample.swift */,
 				1C4AE29F2488781B001CA8A5 /* PickerImageExapmle.swift */,
 				1C4AE28524839EE6001CA8A5 /* Assets.xcassets */,
@@ -161,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA47D27248B1AC800B008C8 /* StaticListExample.swift in Sources */,
 				1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */,
+				1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
+				1CA47D29248B1CF500B008C8 /* RestaurantView.swift in Sources */,
 				1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */,
 				1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */,
 				1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */,
