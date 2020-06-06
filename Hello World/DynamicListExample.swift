@@ -50,7 +50,7 @@ struct DynamicListExample: View {
                 title:"三番目",
                 type:"居酒屋",
                 note:"これはノートです",
-                rating: 4
+                rating: 1
             )
         ]
         return List(restaurants) {
