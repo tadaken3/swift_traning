@@ -18,21 +18,28 @@ struct FormViewExample: View {
     var body: some View {
         NavigationView{
             Form {
-                TextField("氏名を入力してください",text:$name)
-                Text("こんにちは!\(name)")
+                Section(header: Text("顧客情報入力")){
+                    TextField("氏名を入力してください",text:$name)
+                    Text("こんにちは!\(name)")
+                    
+                    DatePicker(selection: $birthDate,
+                               label: {Text("生年月日")})
                 
-                DatePicker(selection: $birthDate,
-                           label: {Text("生年月日")})
-                
-                Picker(selection: $selected,
-                       label: Text("寿司ネタを選択してください")){
-                            ForEach(0..<susi.count){
-                                Text(self.susi[$0])
-                            }
                 }
                 
-                Button(action: {}){
-                    Text("確定")
+                Section(header: Text("寿司選択")){
+                    Picker(selection: $selected,
+                           label: Text("寿司ネタを選択してください")){
+                                ForEach(0..<susi.count){
+                                    Text(self.susi[$0])
+                                }
+                    }
+                }
+                
+                Section {
+                    Button(action: {}){
+                        Text("確定")
+                    }
                 }
             }.navigationBarTitle("寿司注文入力")
         }
