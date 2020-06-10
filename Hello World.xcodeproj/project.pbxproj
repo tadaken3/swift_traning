@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C313281248F0EFC0031AF65 /* FormViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C313280248F0EFC0031AF65 /* FormViewExample.swift */; };
+		1C313283248F13710031AF65 /* SimpleSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C313282248F13710031AF65 /* SimpleSheetExample.swift */; };
+		1C31328524905DE70031AF65 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31328424905DE70031AF65 /* ModalView.swift */; };
+		1C313287249060020031AF65 /* SheetListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C313286249060020031AF65 /* SheetListExample.swift */; };
+		1C3132892490634F0031AF65 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3132882490634F0031AF65 /* DetailView.swift */; };
 		1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE27F24839EE5001CA8A5 /* AppDelegate.swift */; };
 		1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE28124839EE5001CA8A5 /* SceneDelegate.swift */; };
 		1C4AE28424839EE5001CA8A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AE28324839EE5001CA8A5 /* ContentView.swift */; };
@@ -28,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		1C313280248F0EFC0031AF65 /* FormViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewExample.swift; sourceTree = "<group>"; };
+		1C313282248F13710031AF65 /* SimpleSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSheetExample.swift; sourceTree = "<group>"; };
+		1C31328424905DE70031AF65 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		1C313286249060020031AF65 /* SheetListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetListExample.swift; sourceTree = "<group>"; };
+		1C3132882490634F0031AF65 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1C4AE27C24839EE5001CA8A5 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4AE27F24839EE5001CA8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C4AE28124839EE5001CA8A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 				1C4AE28324839EE5001CA8A5 /* ContentView.swift */,
 				1C4AE2972485389D001CA8A5 /* TapButtonExample.swift */,
 				1C313280248F0EFC0031AF65 /* FormViewExample.swift */,
+				1C313282248F13710031AF65 /* SimpleSheetExample.swift */,
+				1C313286249060020031AF65 /* SheetListExample.swift */,
+				1C3132882490634F0031AF65 /* DetailView.swift */,
+				1C31328424905DE70031AF65 /* ModalView.swift */,
 				1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */,
 				1C4AE29B2487D251001CA8A5 /* SliderExample.swift */,
 				1CA47D26248B1AC800B008C8 /* StaticListExample.swift */,
@@ -180,11 +192,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA47D27248B1AC800B008C8 /* StaticListExample.swift in Sources */,
+				1C3132892490634F0031AF65 /* DetailView.swift in Sources */,
 				1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */,
+				1C31328524905DE70031AF65 /* ModalView.swift in Sources */,
 				1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */,
 				1C313281248F0EFC0031AF65 /* FormViewExample.swift in Sources */,
+				1C313287249060020031AF65 /* SheetListExample.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
 				1CA47D29248B1CF500B008C8 /* RestaurantView.swift in Sources */,
+				1C313283248F13710031AF65 /* SimpleSheetExample.swift in Sources */,
 				1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */,
 				1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */,
 				1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */,
