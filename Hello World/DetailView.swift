@@ -8,10 +8,21 @@
 
 import SwiftUI
 
+
 struct DetailView: View {
+    @Environment(\.presentationMode) var presentaionMode
+
     var name: String = "Hello SwiftUI!"
     var body: some View {
-        Text(name).font(.system(size: 30))
+        NavigationView{
+            Text(name).font(.system(size: 30))
+                .navigationBarItems(trailing: Button(action: {
+                    self.presentaionMode.wrappedValue.dismiss()
+                }) {
+                    Text("Close")
+                })
+        }
+
     }
 }
 
