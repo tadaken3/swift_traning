@@ -28,6 +28,9 @@
 		1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */; };
 		1CA47D2D248B486F00B008C8 /* AddRowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D2C248B486F00B008C8 /* AddRowExample.swift */; };
 		1CA47D37248C5FD900B008C8 /* PathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D36248C5FD900B008C8 /* PathExample.swift */; };
+		1CE2E9702491AFDF00E3E95F /* TabExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E96F2491AFDF00E3E95F /* TabExample.swift */; };
+		1CE2E9722491B0C200E3E95F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9712491B0C200E3E95F /* Content.swift */; };
+		1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9732491B15E00E3E95F /* TabViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListExample.swift; sourceTree = "<group>"; };
 		1CA47D2C248B486F00B008C8 /* AddRowExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRowExample.swift; sourceTree = "<group>"; };
 		1CA47D36248C5FD900B008C8 /* PathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathExample.swift; sourceTree = "<group>"; };
+		1CE2E96F2491AFDF00E3E95F /* TabExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExample.swift; sourceTree = "<group>"; };
+		1CE2E9712491B0C200E3E95F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		1CE2E9732491B15E00E3E95F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 				1C313280248F0EFC0031AF65 /* FormViewExample.swift */,
 				1C313282248F13710031AF65 /* SimpleSheetExample.swift */,
 				1C313286249060020031AF65 /* SheetListExample.swift */,
+				1CE2E96F2491AFDF00E3E95F /* TabExample.swift */,
+				1CE2E9712491B0C200E3E95F /* Content.swift */,
+				1CE2E9732491B15E00E3E95F /* TabViewExample.swift */,
 				1C3132882490634F0031AF65 /* DetailView.swift */,
 				1C31328424905DE70031AF65 /* ModalView.swift */,
 				1C4AE2992485DA60001CA8A5 /* ImageButtonExample.swift */,
@@ -193,12 +202,15 @@
 			files = (
 				1CA47D27248B1AC800B008C8 /* StaticListExample.swift in Sources */,
 				1C3132892490634F0031AF65 /* DetailView.swift in Sources */,
+				1CE2E9702491AFDF00E3E95F /* TabExample.swift in Sources */,
+				1CE2E9722491B0C200E3E95F /* Content.swift in Sources */,
 				1C4AE2A02488781B001CA8A5 /* PickerImageExapmle.swift in Sources */,
 				1C31328524905DE70031AF65 /* ModalView.swift in Sources */,
 				1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */,
 				1C313281248F0EFC0031AF65 /* FormViewExample.swift in Sources */,
 				1C313287249060020031AF65 /* SheetListExample.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
+				1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */,
 				1CA47D29248B1CF500B008C8 /* RestaurantView.swift in Sources */,
 				1C313283248F13710031AF65 /* SimpleSheetExample.swift in Sources */,
 				1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */,
