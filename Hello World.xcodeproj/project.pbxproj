@@ -28,6 +28,10 @@
 		1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */; };
 		1CA47D2D248B486F00B008C8 /* AddRowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D2C248B486F00B008C8 /* AddRowExample.swift */; };
 		1CA47D37248C5FD900B008C8 /* PathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA47D36248C5FD900B008C8 /* PathExample.swift */; };
+		1CC4EDC62496EB6E002CD7ED /* AlertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDC52496EB6E002CD7ED /* AlertExample.swift */; };
+		1CC4EDC824984AB6002CD7ED /* AlertButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */; };
+		1CC4EDCA249A5B69002CD7ED /* AlertItemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */; };
+		1CC4EDCC249A5C77002CD7ED /* AlertItemExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */; };
 		1CE2E9702491AFDF00E3E95F /* TabExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E96F2491AFDF00E3E95F /* TabExample.swift */; };
 		1CE2E9722491B0C200E3E95F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9712491B0C200E3E95F /* Content.swift */; };
 		1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9732491B15E00E3E95F /* TabViewExample.swift */; };
@@ -57,6 +61,10 @@
 		1CA47D2A248B24E900B008C8 /* DynamicListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListExample.swift; sourceTree = "<group>"; };
 		1CA47D2C248B486F00B008C8 /* AddRowExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRowExample.swift; sourceTree = "<group>"; };
 		1CA47D36248C5FD900B008C8 /* PathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathExample.swift; sourceTree = "<group>"; };
+		1CC4EDC52496EB6E002CD7ED /* AlertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExample.swift; sourceTree = "<group>"; };
+		1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButtonExample.swift; sourceTree = "<group>"; };
+		1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItemError.swift; sourceTree = "<group>"; };
+		1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItemExample.swift; sourceTree = "<group>"; };
 		1CE2E96F2491AFDF00E3E95F /* TabExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExample.swift; sourceTree = "<group>"; };
 		1CE2E9712491B0C200E3E95F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		1CE2E9732491B15E00E3E95F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 				1C313286249060020031AF65 /* SheetListExample.swift */,
 				1CE2E96F2491AFDF00E3E95F /* TabExample.swift */,
 				1CE2E9712491B0C200E3E95F /* Content.swift */,
+				1CC4EDC52496EB6E002CD7ED /* AlertExample.swift */,
+				1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */,
+				1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */,
+				1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */,
 				1CE2E9732491B15E00E3E95F /* TabViewExample.swift */,
 				1C3132882490634F0031AF65 /* DetailView.swift */,
 				1C31328424905DE70031AF65 /* ModalView.swift */,
@@ -208,6 +220,7 @@
 				1C31328524905DE70031AF65 /* ModalView.swift in Sources */,
 				1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */,
 				1C313281248F0EFC0031AF65 /* FormViewExample.swift in Sources */,
+				1CC4EDCC249A5C77002CD7ED /* AlertItemExample.swift in Sources */,
 				1C313287249060020031AF65 /* SheetListExample.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
 				1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */,
@@ -215,10 +228,13 @@
 				1C313283248F13710031AF65 /* SimpleSheetExample.swift in Sources */,
 				1C4AE29E24887663001CA8A5 /* PickerExample.swift in Sources */,
 				1C4AE29A2485DA60001CA8A5 /* ImageButtonExample.swift in Sources */,
+				1CC4EDC824984AB6002CD7ED /* AlertButtonExample.swift in Sources */,
+				1CC4EDCA249A5B69002CD7ED /* AlertItemError.swift in Sources */,
 				1C4AE28224839EE5001CA8A5 /* SceneDelegate.swift in Sources */,
 				1C4AE29C2487D251001CA8A5 /* SliderExample.swift in Sources */,
 				1C4AE2982485389D001CA8A5 /* TapButtonExample.swift in Sources */,
 				1C4AE28424839EE5001CA8A5 /* ContentView.swift in Sources */,
+				1CC4EDC62496EB6E002CD7ED /* AlertExample.swift in Sources */,
 				1CA47D37248C5FD900B008C8 /* PathExample.swift in Sources */,
 				1CA47D2D248B486F00B008C8 /* AddRowExample.swift in Sources */,
 			);

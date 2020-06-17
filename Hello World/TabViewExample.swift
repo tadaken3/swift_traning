@@ -16,7 +16,7 @@ struct TabViewExample: View {
             Content(content: "First View", color: .yellow)
                 .tabItem {
                     VStack{
-                        Image(systemName: "tornado")
+                        Image(systemName: "star")
                         Text("First")
                     }
                 }.tag(0)
