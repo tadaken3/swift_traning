@@ -32,6 +32,7 @@
 		1CC4EDC824984AB6002CD7ED /* AlertButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */; };
 		1CC4EDCA249A5B69002CD7ED /* AlertItemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */; };
 		1CC4EDCC249A5C77002CD7ED /* AlertItemExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */; };
+		1CC4EDCE249B219B002CD7ED /* AlertOnClickExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDCD249B219B002CD7ED /* AlertOnClickExample.swift */; };
 		1CE2E9702491AFDF00E3E95F /* TabExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E96F2491AFDF00E3E95F /* TabExample.swift */; };
 		1CE2E9722491B0C200E3E95F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9712491B0C200E3E95F /* Content.swift */; };
 		1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9732491B15E00E3E95F /* TabViewExample.swift */; };
@@ -65,6 +66,7 @@
 		1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButtonExample.swift; sourceTree = "<group>"; };
 		1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItemError.swift; sourceTree = "<group>"; };
 		1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItemExample.swift; sourceTree = "<group>"; };
+		1CC4EDCD249B219B002CD7ED /* AlertOnClickExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertOnClickExample.swift; sourceTree = "<group>"; };
 		1CE2E96F2491AFDF00E3E95F /* TabExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExample.swift; sourceTree = "<group>"; };
 		1CE2E9712491B0C200E3E95F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		1CE2E9732491B15E00E3E95F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				1CC4EDC724984AB6002CD7ED /* AlertButtonExample.swift */,
 				1CC4EDC9249A5B69002CD7ED /* AlertItemError.swift */,
 				1CC4EDCB249A5C77002CD7ED /* AlertItemExample.swift */,
+				1CC4EDCD249B219B002CD7ED /* AlertOnClickExample.swift */,
 				1CE2E9732491B15E00E3E95F /* TabViewExample.swift */,
 				1C3132882490634F0031AF65 /* DetailView.swift */,
 				1C31328424905DE70031AF65 /* ModalView.swift */,
@@ -235,6 +238,7 @@
 				1C4AE2982485389D001CA8A5 /* TapButtonExample.swift in Sources */,
 				1C4AE28424839EE5001CA8A5 /* ContentView.swift in Sources */,
 				1CC4EDC62496EB6E002CD7ED /* AlertExample.swift in Sources */,
+				1CC4EDCE249B219B002CD7ED /* AlertOnClickExample.swift in Sources */,
 				1CA47D37248C5FD900B008C8 /* PathExample.swift in Sources */,
 				1CA47D2D248B486F00B008C8 /* AddRowExample.swift in Sources */,
 			);
