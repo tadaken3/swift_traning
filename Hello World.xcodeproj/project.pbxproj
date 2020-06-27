@@ -35,6 +35,7 @@
 		1CC4EDCE249B219B002CD7ED /* AlertOnClickExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDCD249B219B002CD7ED /* AlertOnClickExample.swift */; };
 		1CC4EDD024A0B31E002CD7ED /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDCF24A0B31E002CD7ED /* QuestionView.swift */; };
 		1CC4EDD224A2D645002CD7ED /* CountExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDD124A2D645002CD7ED /* CountExample.swift */; };
+		1CC4EDD624A426F2002CD7ED /* ObservedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4EDD524A426F2002CD7ED /* ObservedObjectExample.swift */; };
 		1CE2E9702491AFDF00E3E95F /* TabExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E96F2491AFDF00E3E95F /* TabExample.swift */; };
 		1CE2E9722491B0C200E3E95F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9712491B0C200E3E95F /* Content.swift */; };
 		1CE2E9742491B15E00E3E95F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2E9732491B15E00E3E95F /* TabViewExample.swift */; };
@@ -71,6 +72,7 @@
 		1CC4EDCD249B219B002CD7ED /* AlertOnClickExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertOnClickExample.swift; sourceTree = "<group>"; };
 		1CC4EDCF24A0B31E002CD7ED /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		1CC4EDD124A2D645002CD7ED /* CountExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountExample.swift; sourceTree = "<group>"; };
+		1CC4EDD524A426F2002CD7ED /* ObservedObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectExample.swift; sourceTree = "<group>"; };
 		1CE2E96F2491AFDF00E3E95F /* TabExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExample.swift; sourceTree = "<group>"; };
 		1CE2E9712491B0C200E3E95F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		1CE2E9732491B15E00E3E95F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				1C313282248F13710031AF65 /* SimpleSheetExample.swift */,
 				1CC4EDD124A2D645002CD7ED /* CountExample.swift */,
 				1C313286249060020031AF65 /* SheetListExample.swift */,
+				1CC4EDD524A426F2002CD7ED /* ObservedObjectExample.swift */,
 				1CE2E96F2491AFDF00E3E95F /* TabExample.swift */,
 				1CE2E9712491B0C200E3E95F /* Content.swift */,
 				1CC4EDC52496EB6E002CD7ED /* AlertExample.swift */,
@@ -230,6 +233,7 @@
 				1CA47D2B248B24E900B008C8 /* DynamicListExample.swift in Sources */,
 				1CC4EDD024A0B31E002CD7ED /* QuestionView.swift in Sources */,
 				1C313281248F0EFC0031AF65 /* FormViewExample.swift in Sources */,
+				1CC4EDD624A426F2002CD7ED /* ObservedObjectExample.swift in Sources */,
 				1CC4EDCC249A5C77002CD7ED /* AlertItemExample.swift in Sources */,
 				1C313287249060020031AF65 /* SheetListExample.swift in Sources */,
 				1C4AE28024839EE5001CA8A5 /* AppDelegate.swift in Sources */,
