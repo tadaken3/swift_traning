@@ -9,19 +9,18 @@
 import SwiftUI
 
 struct Content: View {
-    var content : String
-    var color : Color
-    var body: some View {
-        ZStack {
-            Rectangle().fill(color)
-            Text(content).font(.largeTitle)
+    @State var progressValue: Float = 0.5
 
+    var body: some View {
+        VStack {
+            ProgressBar(value: $progressValue).frame(height: 20)
+                Spacer()
+            }.padding()
         }
-    }
 }
 
 struct Content_Previews: PreviewProvider {
     static var previews: some View {
-        Content(content: "test", color : .purple)
+        Content()
     }
 }
